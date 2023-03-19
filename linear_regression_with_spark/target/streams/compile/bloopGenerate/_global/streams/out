@@ -1,0 +1,4 @@
+[debug] [linear_regression_with_spark] Classpath dependencies List()
+[debug] [linear_regression_with_spark] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'linear_regression_with_spark' to '/Users/alexg/Documents/MADE/sem_2/linear_regression_with_spark/.bloop/linear_regression_with_spark.json'
+[success] Generated .bloop/linear_regression_with_spark.json

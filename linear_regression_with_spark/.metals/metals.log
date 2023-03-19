@@ -1,0 +1,68 @@
+2023.03.19 14:42:57 INFO  Shutting down server
+2023.03.19 14:42:57 INFO  shutting down Metals
+2023.03.19 14:42:57 INFO  Shut down connection with build server.
+2023.03.19 14:42:57 INFO  Shut down connection with build server.
+2023.03.19 14:42:57 INFO  Exiting server
+2023.03.19 14:44:45 INFO  Started: Metals version 0.11.11 in workspace '/Users/alexg/Documents/MADE/sem_2/linear_regression_with_spark' for client Visual Studio Code 1.76.2.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/alexg/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.19 14:44:46 INFO  time: initialize in 0.6s
+2023.03.19 14:44:48 INFO  Attempting to connect to the build server...
+2023.03.19 14:44:48 INFO  Bloop uses /Users/alexg/.jabba/jdk/openjdk@1.17.0/Contents/Home defined at /Users/alexg/.bloop/bloop.json
+2023.03.19 14:44:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/alexg/Documents/MADE/sem_2/linear_regression_with_spark/.metals/bsp.trace.json or /Users/alexg/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.03.19 14:44:49 INFO  Attempting to connect to the build server...
+2023.03.19 14:44:49 INFO  Bloop uses /Users/alexg/.jabba/jdk/openjdk@1.17.0/Contents/Home defined at /Users/alexg/.bloop/bloop.json
+2023.03.19 14:44:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/alexg/Documents/MADE/sem_2/linear_regression_with_spark/project/.metals/bsp.trace.json or /Users/alexg/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.03.19 14:44:49 INFO  time: Connected to build server in 0.6s
+2023.03.19 14:44:49 INFO  Connected to Build server: Bloop v1.5.6
+2023.03.19 14:44:53 INFO  running '/Users/alexg/.jabba/jdk/openjdk@1.17.0/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/pb/t6vzxjzn4dsb3vlb9pm12fzc0000gn/T/metals7582817076162078529/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.03.19 14:44:54 ERROR WARNING: A terminally deprecated method in java.lang.System has been called
+2023.03.19 14:44:54 ERROR WARNING: System::setSecurityManager has been called by sbt.TrapExit$ (file:/Users/alexg/.sbt/boot/scala-2.12.12/org.scala-sbt/sbt/1.4.2/run_2.12-1.4.2.jar)
+2023.03.19 14:44:54 ERROR WARNING: Please consider reporting this to the maintainers of sbt.TrapExit$
+2023.03.19 14:44:54 ERROR WARNING: System::setSecurityManager will be removed in a future release
+2023.03.19 14:44:55 INFO  [info] welcome to sbt 1.4.2 (Oracle Corporation Java 17)
+2023.03.19 14:44:56 INFO  time: indexed workspace in 6.8s
+2023.03.19 14:44:58 INFO  [info] loading settings for project linear_regression_with_spark-build-build from metals.sbt ...
+2023.03.19 14:45:00 INFO  [info] loading project definition from /Users/alexg/Documents/MADE/sem_2/linear_regression_with_spark/project/project
+2023.03.19 14:45:02 INFO  [info] loading settings for project linear_regression_with_spark-build from metals.sbt ...
+2023.03.19 14:45:02 INFO  [info] loading project definition from /Users/alexg/Documents/MADE/sem_2/linear_regression_with_spark/project
+2023.03.19 14:45:05 INFO  [success] Generated .bloop/linear_regression_with_spark-build.json
+2023.03.19 14:45:05 INFO  [success] Total time: 3 s, completed Mar 19, 2023, 2:45:05 PM
+2023.03.19 14:45:07 INFO  [info] loading settings for project linear_regression_with_spark from build.sbt ...
+2023.03.19 14:45:07 INFO  [info] set current project to distributed computing course project (in build file:/Users/alexg/Documents/MADE/sem_2/linear_regression_with_spark/)
+2023.03.19 14:45:12 INFO  [success] Generated .bloop/linear_regression_with_spark-test.json
+2023.03.19 14:45:12 INFO  [success] Generated .bloop/linear_regression_with_spark.json
+2023.03.19 14:45:12 INFO  [success] Total time: 4 s, completed Mar 19, 2023, 2:45:12 PM
+2023.03.19 14:45:12 INFO  time: ran 'sbt bloopInstall' in 19s
+2023.03.19 14:45:12 INFO  Disconnecting from Bloop session...
+2023.03.19 14:45:12 INFO  Shut down connection with build server.
+2023.03.19 14:45:12 INFO  Shut down connection with build server.
+2023.03.19 14:45:12 INFO  Attempting to connect to the build server...
+2023.03.19 14:45:12 INFO  Bloop uses /Users/alexg/.jabba/jdk/openjdk@1.17.0/Contents/Home defined at /Users/alexg/.bloop/bloop.json
+2023.03.19 14:45:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/alexg/Documents/MADE/sem_2/linear_regression_with_spark/.metals/bsp.trace.json or /Users/alexg/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.03.19 14:45:12 INFO  Attempting to connect to the build server...
+2023.03.19 14:45:12 INFO  Bloop uses /Users/alexg/.jabba/jdk/openjdk@1.17.0/Contents/Home defined at /Users/alexg/.bloop/bloop.json
+2023.03.19 14:45:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/alexg/Documents/MADE/sem_2/linear_regression_with_spark/project/.metals/bsp.trace.json or /Users/alexg/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.03.19 14:45:12 INFO  time: Connected to build server in 82ms
+2023.03.19 14:45:12 INFO  Connected to Build server: Bloop v1.5.6
+2023.03.19 14:45:15 INFO  time: indexed workspace in 3.05s
+2023.03.19 14:46:28 INFO  time: code lens generation in 1.25s
+2023.03.19 14:46:28 INFO  time: code lens generation in 1.61s
+2023.03.19 14:47:26 WARN  sql closed: select build_target_uri from dependency_source where text_document_uri = ?;
+2023.03.19 14:47:26 WARN  sql closed: select build_target_uri from dependency_source where text_document_uri = ?;
+2023.03.19 14:47:26 WARN  no build target for: /Users/alexg/Documents/MADE/sem_2/linear_regression_with_spark/project/metals.sbt
+2023.03.19 14:54:07 WARN  no build target for: /Users/alexg/Documents/MADE/sem_2/linear_regression_with_spark/project/project/metals.sbt
+2023.03.19 14:55:00 WARN  no build target for: /Users/alexg/Documents/MADE/sem_2/linear_regression_with_spark/project/metals.sbt
+2023.03.19 14:55:04 INFO  compiling linear_regression_with_spark (1 scala source)
+2023.03.19 14:55:08 INFO  time: compiled linear_regression_with_spark in 3.81s
+2023.03.19 14:55:18 INFO  compiling linear_regression_with_spark-test (2 scala sources)
+2023.03.19 14:55:20 INFO  time: compiled linear_regression_with_spark-test in 2.03s
+2023.03.19 14:56:09 INFO  Shutting down server
+2023.03.19 14:56:09 INFO  shutting down Metals
+2023.03.19 14:56:09 INFO  Shut down connection with build server.
+2023.03.19 14:56:09 INFO  Shut down connection with build server.
+2023.03.19 14:56:09 INFO  Exiting server
